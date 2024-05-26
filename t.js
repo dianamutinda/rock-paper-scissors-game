@@ -21,9 +21,8 @@ function winner(){
     }else if(resultMessage == "computer wins"){
         computerScore++;
     }
-}
 updateScore();
-
+}
 rockBtn.addEventListener("click", () => {
     let num = Math.floor(Math.random() * 3+1);
     if (num === 1){
